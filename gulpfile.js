@@ -105,7 +105,7 @@ function libsCss() {
         'node_modules/bootstrap/dist/css/bootstrap.min.css',
         // 'node_modules/flexboxgrid2/flexboxgrid2.css',
         // 'node_modules/pagepiling.js/dist/jquery.pagepiling.css',
-        // 'node_modules/swiper/swiper-bundle.min.css',
+        'node_modules/swiper/swiper-bundle.min.css',
         // 'node_modules/font-awesome/css/font-awesome.css',
         // 'node_modules/wowjs/css/libs/animate.css',
         // 'node_modules/animate.css/animate.css',
@@ -148,7 +148,7 @@ function libsJs() {
         // 'node_modules/selectric/public/jquery.selectric.js',
         // 'node_modules/wowjs/dist/wow.js',
         // 'node_modules/slick-carousel/slick/slick.js',
-        // 'node_modules/swiper/swiper-bundle.min.js',
+        'node_modules/swiper/swiper-bundle.min.js',
         // 'src/js/pageScrollToId.js'
         // 'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
         // 'src/js/jquery.resizeOnApproach.1.0.min.js',

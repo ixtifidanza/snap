@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="278" height="279" viewBox="0 0 278 279">
+  <defs>
+    <filter id="Прямоугольник_6" x="0" y="0" width="278" height="279" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-color="#0d13d7" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Сгруппировать_10802" data-name="Сгруппировать 10802" transform="translate(-835 -2500)">
+    <g id="Сгруппировать_10776" data-name="Сгруппировать 10776" transform="translate(72 -82.912)">
+      <g id="Сгруппировать_9" data-name="Сгруппировать 9" transform="translate(893.163 2621.912)" opacity="0.1">
+        <circle id="Эллипс_4" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 0) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-2" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 13.073) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-3" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 26.146) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-4" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 37.2) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-5" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 49.6) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-6" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 62) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-7" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 74.399) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-8" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 86.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-9" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 99.199) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-10" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 111.599) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-11" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 122.653) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-12" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 135.726) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-13" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(69.98 148.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-14" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 0) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-15" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 13.073) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-16" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 26.146) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-17" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 37.2) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-18" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 49.6) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-19" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 62) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-20" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 74.399) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-21" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 0) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-22" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 13.073) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-23" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 26.146) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-24" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 37.2) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-25" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 49.6) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-26" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 62) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-27" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 74.399) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-28" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 86.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-29" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 99.199) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-30" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 111.599) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-31" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 122.653) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-32" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 135.726) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-33" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(56.907 148.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-34" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 0) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-35" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 13.073) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-36" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 26.146) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-37" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 37.2) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-38" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 49.6) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-39" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 62) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-40" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 74.399) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-41" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 0) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-42" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 13.073) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-43" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 26.146) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-44" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 37.2) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-45" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 49.6) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-46" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 62) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-47" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 74.399) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-48" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 86.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-49" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 99.199) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-50" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 111.599) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-51" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 122.653) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-52" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 135.726) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-53" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(43.834 148.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-54" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 86.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-55" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 99.199) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-56" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 111.599) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-57" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 122.653) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-58" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 135.726) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-59" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(17.687 148.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-60" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 0) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-61" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 13.073) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-62" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 26.146) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-63" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 37.2) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-64" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 49.6) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-65" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 62) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-66" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 74.399) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-67" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 86.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-68" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 99.199) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-69" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 111.599) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-70" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 122.653) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-71" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 135.726) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-72" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(30.761 148.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-73" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 86.799) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-74" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 99.199) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-75" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 111.599) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-76" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 122.653) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-77" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 135.726) rotate(90)" fill="#32abe0"/>
+        <circle id="Эллипс_4-78" data-name="Эллипс 4" cx="2.307" cy="2.307" r="2.307" transform="translate(4.614 148.799) rotate(90)" fill="#32abe0"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 763, 2582.91)" filter="url(#Прямоугольник_6)">
+        <rect id="Прямоугольник_6-2" data-name="Прямоугольник 6" width="110" height="111" rx="26" transform="translate(74 64)" fill="#32abe0"/>
+      </g>
+    </g>
+    <g id="placeholder" transform="translate(935 2591)">
+      <g id="Сгруппировать_10783" data-name="Сгруппировать 10783" transform="translate(0 0)">
+        <g id="Сгруппировать_10782" data-name="Сгруппировать 10782">
+          <path id="Контур_12486" data-name="Контур 12486" d="M43.305,313.524a2.374,2.374,0,1,0-1.1,4.62c7.378,1.751,10.053,4.34,10.053,5.656,0,2.839-9.473,7.126-23.753,7.126S4.756,326.638,4.756,323.8c0-1.316,2.677-3.905,10.05-5.656a2.374,2.374,0,1,0-1.1-4.62C4.872,315.619,0,319.267,0,323.8c0,7.8,14.342,11.877,28.5,11.877s28.5-4.081,28.5-11.877C57.013,319.267,52.146,315.619,43.305,313.524Z" transform="translate(-0.005 -278.667)" fill="#fff"/>
+          <path id="Контур_12487" data-name="Контур 12487" d="M237.057,133.766a2.375,2.375,0,1,0-2.375-2.375A2.376,2.376,0,0,0,237.057,133.766Z" transform="translate(-208.552 -114.761)" fill="#fff"/>
+          <path id="Контур_12488" data-name="Контур 12488" d="M120.22,45.262l.967,1.933a2.377,2.377,0,0,0,4.252,0l2.048-4.1a164.357,164.357,0,0,1,8.537-14.485l1.354-2.131A16.623,16.623,0,0,0,121.37,1.114a16.614,16.614,0,0,0-11.454,26.35A119.508,119.508,0,0,1,120.22,45.262ZM123.313,10.5a7.126,7.126,0,1,1-7.126,7.126A7.135,7.135,0,0,1,123.313,10.5Z" transform="translate(-94.808 -1)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

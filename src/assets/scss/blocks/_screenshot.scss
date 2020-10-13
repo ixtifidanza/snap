@@ -1,0 +1,19 @@
+.screenshot {
+    &__title {
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    &__subtitle {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 72px;
+    }
+    &__image {
+       & img {
+           width: 100%;
+           display: block;
+           margin-right: -50px;
+       }
+    }
+}

@@ -1,0 +1,13 @@
+.header {
+    background: url(../../../assets/img/header-bg.jpg) no-repeat top 2000% right / cover;
+
+    &__image img {
+        width: 85%;
+    }
+
+    &__title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+}
+

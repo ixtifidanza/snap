@@ -10,6 +10,13 @@
 }
 
 @import 'fonts';
+@import '_vars';
 @import 'base';
-@import '__header';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/info';
+@import 'blocks/screenshot';
+@import 'blocks/download';
+@import 'blocks/footer';
+
 

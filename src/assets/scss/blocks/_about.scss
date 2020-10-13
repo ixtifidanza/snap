@@ -1,0 +1,11 @@
+.about {
+
+
+    &__content {
+        max-width: 465px;
+    }
+    &__text {
+        font-size: 19px;
+        color: $text-color;
+    }
+}

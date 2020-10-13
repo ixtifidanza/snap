@@ -35,6 +35,7 @@
     "selectric": "^1.13.0",
     "slick-carousel": "^1.8.1",
     "slickjs": "^1.0.0",
+    "swiper": "^6.3.3",
     "wowjs": "^1.1.3"
   }
 }
