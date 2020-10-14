@@ -21,7 +21,7 @@ var swiper = new Swiper('.swiper-container', {
 
 $(function(){
 
-  $('.nav-item a').on('click', function(e){
+  $('.nav-link').on('click', function(e){
       e.preventDefault();
       $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 2000);
   });

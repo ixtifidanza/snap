@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
 
-    &-bred img {
+    &-brand img {
         margin-right: 60px;
     }
 
@@ -19,12 +19,9 @@
     }
 }
 
-.nav-link {
-    transition: all .3s linear;
 
-    &:hover {
-        text-decoration: none;
-        color: #F8C90F;
+@media(max-width: 1200px) {
+    .navbar-brand img {
+        margin-right: 20px;
     }
-
 }
