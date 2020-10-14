@@ -2,6 +2,7 @@
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
   spaceBetween: 50,
+  loop: true,
   breakpoints: {
     320: {
       slidesPerView: 1,
@@ -17,3 +18,12 @@ var swiper = new Swiper('.swiper-container', {
     }
   }
 })
+
+$(function(){
+
+  $('.nav-item a').on('click', function(e){
+      e.preventDefault();
+      $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 2000);
+  });
+
+});

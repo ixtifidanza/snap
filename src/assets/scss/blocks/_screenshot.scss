@@ -1,4 +1,14 @@
 .screenshot {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        top: 17%; 
+        right: 0;
+        width: 40%;
+        height: 710px;
+        background: url('../../../assets/img/screens-bghot.png') no-repeat center right / contain;
+    }
     &__title {
         text-align: center;
         font-size: 35px;
@@ -15,5 +25,26 @@
            display: block;
            margin-right: -50px;
        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .screenshot {
+        &:after {
+            height: 500px;
+            top: 25%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .screenshot {
+        &:after {
+            width: 50%;
+            top: 27%;
+        }
+        &__content {
+            margin-right: 70px;
+        }
     }
 }

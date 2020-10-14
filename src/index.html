@@ -14,7 +14,7 @@
   <header class="header">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light pt-lg-4">
-        <a class="navbar-brand mr-5" href="#">
+        <a class="navbar-brand" href="#">
           <img src="assets/img/snap-logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -23,17 +23,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav menu mt-4">
-            <li class="nav-item">
-              <a class="nav-link" href="#">О нас</a>
+            <li class="nav__item">
+              <a class="nav-link" href="#about">О нас</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Варианты машин</a>
+            <li class="nav__item">
+              <a class="nav-link" href="#info">Услуги</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Услуги</a>
+            <li class="nav__item">
+              <a class="nav-link" href="#screenshot">Варианты машин</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Контакты</a>
+            <li class="nav__tem">
+              <a class="nav-link" href="#footer">Контакты</a>
             </li>
           </ul>
         </div>
@@ -52,14 +52,14 @@
                 Можете попробовать сами. пожалуйста, оставьте нам
                 отзыв. Это всегда ценится.</p>
               <div class="header__images row">
-                <div class="col-lg-6 p-0">
+                <div class="col-lg-6 col-md-5 p-0">
                   <a href="#">
-                    <img class="main-logo" src="assets/img/App-Store.png" alt="appstore">
+                    <img class="header__logo" src="assets/img/App-Store.png" alt="appstore">
                   </a>
                 </div>
-                <div class="col-lg-6 pl-4">
+                <div class="col-lg-6 col-md-5 pl-lg-4 p-md-0">
                   <a href="#">
-                    <img class="main-logo" src="assets/img/Google-Play.png" alt="google-play">
+                    <img class="header__logo" src="assets/img/Google-Play.png" alt="google-play">
                   </a>
                 </div>
               </div>
@@ -67,7 +67,7 @@
           </div>
           <div class="col-lg-6">
             <div class="header__image">
-              <img class="img-fluid ml-auto d-block" src="assets/img/phone-img.png" alt="phone-img">
+              <img class="img-fluid d-block" src="assets/img/phone-img.png" alt="phone-img">
             </div>
           </div>
 
@@ -81,9 +81,15 @@
     </div>
   </header>
 
-  <section class="about">
+  <section class="about" id="about">
     <div class="container">
-      <div class="row justify-content-end">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6">
+          <div class="about__image">
+            <img class="img-fluid" src="assets/img/phone-img.png" alt="phone-img">
+          </div>
+        </div>
 
         <div class="col-lg-6">
           <div class="about__content">
@@ -105,13 +111,13 @@
   </section>
 
   <section class="info">
-    <div class="container">
+    <div class="container" id="info">
       <h2 class="info__title title">Мы предоставляем различные виды
         машин для вас и это еще не все.</h2>
 
       <div class="row">
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-5">
           <div class="info__card">
             <div class="info__image">
               <img src="assets/img/list.svg" alt="">
@@ -121,7 +127,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-5">
           <div class="info__card">
             <div class="info__image">
               <img src="assets/img/placeholder.svg" alt="">
@@ -132,7 +138,7 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-5">
           <div class="info__card">
             <div class="info__image">
               <img src="assets/img/payment.svg" alt="">
@@ -144,7 +150,7 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-5">
           <div class="info__card">
             <div class="info__image">
               <img src="assets/img/list-blue.svg" alt="">
@@ -155,7 +161,7 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-5">
           <div class="info__card">
             <div class="info__image">
               <img src="assets/img/placeholder-2.svg" alt="">
@@ -168,7 +174,7 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-5">
           <div class="info__card">
             <div class="info__image">
               <img src="assets/img/payment-2.svg" alt="">
@@ -186,11 +192,17 @@
 
 
   <section class="screenshot">
-    <div class="container">
+    <div class="container" id="screenshot">
+      <div class="screenshot__content">
+
       <h2 class="screenshot__title title">Скриншоты приложеия</h2>
       <p class="screenshot__subtitle text">Попробуйте наше приложение</p>
+     
+    </div>
+
+
       <div class="row">
-        <div class="col-10">
+        <div class="col-10 screenshot__slider">
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide screenshot__image">
@@ -201,6 +213,9 @@
               </div>
               <div class="swiper-slide screenshot__image">
                 <img src="assets/img/screenshot.png" alt="">
+              </div>
+              <div class="swiper-slide screenshot__image">
+                <img src="assets/img/screenshot-2.png" alt="">
               </div>
             </div>
           </div>
@@ -216,13 +231,17 @@
 
       <div class="download__title">Cкачайте сейчас</div>
 
-      <div class="download__logo">
-        <a href="#">
-          <img src="assets/img/App-Store.png" alt="app-store">
-        </a>
-        <a href="#">
-          <img src="assets/img/Google-Play.png" alt="google-play">
-        </a>
+        <div class="row justify-content-center">
+          <div class="col-8">
+            <div class="download__logos">
+              <a href="#">
+                <img src="assets/img/App-Store.png" alt="app-store">
+              </a>
+              <a href="#">
+                <img src="assets/img/Google-Play.png" alt="app-store">
+              </a>
+          </div>
+        </div>
       </div>
 
 
@@ -231,7 +250,7 @@
 
 
   <footer class="footer">
-    <div class="container">
+    <div class="container" id="footer">
       <div class="row mb-5">
         <div class="col-lg-4">
           <a href="#">
@@ -273,16 +292,16 @@
             <div class="footer__item">
               <h4 class="footer__title">О нас</h4>
               <ul>
-                
-                
+
+
                 <li class="footer__link text"> <a href="">Вакансии</a></li>
-            
-      
+
+
                 <li class="footer__link text"> <a href="">Водителям </a></li>
-              
-            
+
+
                 <li class="footer__link text"> <a href="">Бизнесу</a></li>
-              
+
               </ul>
             </div>
 
@@ -291,8 +310,8 @@
               <p class="footer__text text">Свяжитесь с нами по телефону
                 или напишите на почту</p>
               <div class="footer__contact">
-               <a href="tel:998787777777">+ 998 78 777 77 77
-               </a>
+                <a href="tel:998787777777">+ 998 78 777 77 77
+                </a>
                 <a href="mailto:info@Snap_Taxi.com">info@Snap_Taxi.com</a>
               </div>
             </div>

@@ -7,6 +7,10 @@
 body {
     font-family: 'SFUIDisplay', sans-serif;
     overflow-x: hidden;
+    background-image: url(./../../assets/img/bg-body.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: -800px 300px;
 }
 
 section {
@@ -34,11 +38,3 @@ section {
     overflow: hidden;
 }
 
-a {
-    transition: all .3s linear;
-    &:hover {
-    text-decoration: none;
-    color: #F8C90F;
-}
-
-}

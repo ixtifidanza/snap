@@ -1,4 +1,8 @@
 .footer {
+    margin-top: -100px;
+    &__block {
+        margin-top: 50px;
+    }
     &__link {
         display: flex;
         width: 120px;
@@ -65,4 +69,8 @@
             text-decoration: none;
         }
     }
+}
+
+@media (max-width: 1200px) {
+
 }

@@ -10,13 +10,30 @@
         color: #fff;
         margin-bottom: 34px;
     }
-    &__logo {
+
+    &__logos {
         display: flex;
-        justify-content: center;
-        padding-bottom: 150px;
-        
-        & a img {
-            width: 85%;
+        justify-content: space-between;
+        padding: 0 60px 200px;
+
+        & a  {
+            width: 275px;
+            img {
+                display: flex;
+                justify-content: center;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .download {
+        &__logos {
+            padding: 0 20px 200px;
+        }
+        &__title {
+            font-size: 35px;
         }
     }
 }
