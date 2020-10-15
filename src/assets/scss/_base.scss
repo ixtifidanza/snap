@@ -58,8 +58,10 @@ section {
     width: 100%;
     top: 0;
     left: 0;
+    right: 0;
     z-index: 999;
     background: #fff;
+    transition: .3s linear;
 }
 
 @media (max-width: 1200px) {

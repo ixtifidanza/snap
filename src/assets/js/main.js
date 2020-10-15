@@ -36,7 +36,7 @@ $(window).on("scroll", function() {
 function checkScroll(scrollOffset) {
   if( scrollOffset >= headerH ) {
     nav.addClass("sticky");
-    about.css('padding-top', '160px');
+    about.css('padding-top', '140px');
   } else {
     nav.removeClass("sticky");
     about.css('padding-top', '');
