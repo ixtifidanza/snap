@@ -5,11 +5,11 @@ var swiper = new Swiper('.swiper-container', {
   loop: true,
   breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20
     },
-    767: {
-      slidesPerView: 2,
+    768: {
+      slidesPerView: 3,
       spaceBetween: 30
     },
     991: {
@@ -18,6 +18,33 @@ var swiper = new Swiper('.swiper-container', {
     }
   }
 })
+
+var nav = $('.navbar'),
+    about = $('#about'),
+    headerH = $(".header").innerHeight(),
+    scrollOffset = $(window).scrollTop();
+
+    checkScroll(scrollOffset);
+    
+$(window).on("scroll", function() {
+  scrollOffset = $(this).scrollTop();
+
+  checkScroll(scrollOffset);
+
+});
+
+function checkScroll(scrollOffset) {
+  if( scrollOffset >= headerH ) {
+    nav.addClass("sticky");
+    about.css('padding-top', '160px');
+  } else {
+    nav.removeClass("sticky");
+    about.css('padding-top', '');
+  }
+}
+
+
+
 
 $(function(){
 

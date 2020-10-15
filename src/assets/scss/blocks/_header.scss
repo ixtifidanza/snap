@@ -1,11 +1,12 @@
 .header {
     background: url(../../../assets/img/bg-header.png) no-repeat 100px -80px / contain;
 
-    &__image{ 
+    &__image {
         display: flex;
         justify-content: flex-end;
+
         img {
-           width: 85%;
+            width: 85%;
         }
     }
 
@@ -13,24 +14,38 @@
         font-size: 60px;
         font-weight: 700;
     }
+
+    &__images {
+        padding-left: 15px;
+        padding-right: 140px;
+
+        & img {
+            width: 220px;
+        }
+    }
 }
 
 @media(max-width: 1200px) {
     .header {
         background: url(../../../assets/img/bg-header.png) no-repeat 120px -50px / contain;
-    
-        &__image{ 
+
+        &__image {
             img {
-               width: 80%;
+                width: 80%;
             }
         }
-    
+
         &__title {
             font-size: 43px;
         }
 
-        &__logo {
-            width: 250px;
+        &__images {
+            padding-left: 15px;
+            padding-right: 90px;
+    
+            & img {
+                width: 200px;
+            }
         }
     }
 }
@@ -38,6 +53,7 @@
 @media(max-width: 992px) {
     .header {
         background: none;
+
         &__content {
             margin-top: 50px;
         }
@@ -46,10 +62,10 @@
             max-width: 480px;
         }
 
-        &__image{ 
+        &__image {
             display: none;
         }
-    
+
         &__title {
             font-size: 40px;
         }
@@ -60,25 +76,53 @@
 
         &__images {
             padding-left: 15px;
-            padding-right: 190px;
+            padding-right: 220px;
+    
+            & img {
+                width: 180px;
+            }
         }
-    }    
+    }
 }
 
 @media(max-width: 768px) {
     .header {
-        .header {            
-            &__title {
-                font-size: 35px;
-            }
+        &__title {
+            font-size: 35px;
+        }
+
+        &__images {
+            padding-left: 15px;
+            padding-right: 240px;
     
-            &__logo {
-                width: 170px;
+            & img {
+                width: 150px;
             }
         }
     }
 }
 
 @media(max-width: 568px) {
-    .header {}
+    .header {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__description {
+            margin-bottom: 20px !important;
+        }
+
+        &__images {
+            padding-left: 15px;
+            padding-right: 190px;
+    
+            & img {
+                width: 120px;
+            }
+        }
+
+        & .row {
+            flex-wrap: nowrap !important;
+        }
+    }
 }
