@@ -54,3 +54,7 @@ $(function(){
   });
 
 });
+
+$('.nav-link').on('click', function() {
+  $('.navbar-collapse').removeClass('show');
+});
