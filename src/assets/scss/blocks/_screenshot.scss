@@ -2,22 +2,25 @@
     padding-top: 0;
     padding-bottom: 190px;
     background: url('../../../assets/img/screen-bg.png') no-repeat center 200px / contain;
+
     &__title {
         text-align: center;
         font-size: 35px;
         font-weight: bold;
     }
+
     &__subtitle {
         text-align: center;
         font-size: 20px;
         margin-bottom: 72px;
     }
+
     &__image {
-       & img {
-           width: 100%;
-           display: block;
-           margin-right: -50px;
-       }
+        & img {
+            width: 100%;
+            display: block;
+            margin-right: -50px;
+        }
     }
 }
 
@@ -29,21 +32,53 @@
 
 @media (max-width: 992px) {
     .screenshot {
+        background: url('../../../assets/img/screen-bg.png') no-repeat center 100px / contain;
         padding-bottom: 140px;
     }
 }
 
 @media (max-width: 768px) {
     .screenshot {
+        position: relative;
         background: none;
         padding-bottom: 120px;
 
+        &:after {
+            content: '';
+            width: 250px;
+            height: 600px;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: -5%;
+            background: url('../../../assets/img/screens-bghot.png')no-repeat center / contain;
+        }
 
         &__image {
             & img {
-                width: 60%;
+                width: 100%;
             }
         }
     }
-    
+
+}
+
+@media (max-width: 568px) {
+    .screenshot {
+        position: relative;
+        background: none;
+        padding-bottom: 80px;
+
+        &:after {
+            display: none;
+        }
+
+        &__image {
+            & img {
+                width: 90%;
+                margin: 0;
+            }
+        }
+
+    }
 }
