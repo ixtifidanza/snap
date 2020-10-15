@@ -19,6 +19,33 @@ var swiper = new Swiper('.swiper-container', {
   }
 })
 
+var nav = $('.navbar'),
+    about = $('#about'),
+    headerH = $(".header").innerHeight(),
+    scrollOffset = $(window).scrollTop();
+
+    checkScroll(scrollOffset);
+    
+$(window).on("scroll", function() {
+  scrollOffset = $(this).scrollTop();
+
+  checkScroll(scrollOffset);
+
+});
+
+function checkScroll(scrollOffset) {
+  if( scrollOffset >= headerH ) {
+    nav.addClass("sticky");
+    about.css('padding-top', '160px');
+  } else {
+    nav.removeClass("sticky");
+    about.css('padding-top', '');
+  }
+}
+
+
+
+
 $(function(){
 
   $('.nav-link').on('click', function(e){

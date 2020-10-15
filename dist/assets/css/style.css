@@ -86,6 +86,17 @@ section {
     color: #F8C90F !important;
 }
 
+.sticky {
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #fff;
+}
+
 .header {
     background: url(../../../assets/img/bg-header.png) no-repeat 100px -80px/contain;
 }
@@ -121,6 +132,7 @@ section {
     background: url(../../../assets/img/about-bg.png) no-repeat;
     background-size: contain;
     background-position: center 330px;
+    padding-top: 130px;
 }
 
 .about__content {
