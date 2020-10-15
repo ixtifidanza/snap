@@ -5,8 +5,6 @@
     }
     &__link {
         display: flex;
-        width: 120px;
-        justify-content: space-between;
         align-items: center;
         list-style: none;
         font-size: 16px;
@@ -18,7 +16,6 @@
         }
         a {
             color: #646974;
-            text-decoration: none;
         }
     }
     &__text {
@@ -29,8 +26,12 @@
     &__copyright {
         display: flex;
         justify-content: space-between;
-        font-size: 16px;
-    
+
+        &-text {
+            font-size: 16px;
+            font-weight: 300;
+            color: #646974;
+        }
     }
     &__title {
         font-size: 19px;
@@ -65,12 +66,22 @@
         flex-direction: column;
 
         & a {
-            color: #F8C90F;
-            text-decoration: none;
+            color: #646974;
         }
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        width: 20px;
+        margin-right: 35px;
     }
 }
 
-@media (max-width: 1200px) {
-
+@media (max-width: 992px) {
+    .footer {
+        &__text {
+            max-width: 400px;
+        }
+    }
 }
