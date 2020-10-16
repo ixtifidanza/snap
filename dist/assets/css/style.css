@@ -102,7 +102,7 @@ section {
 }
 
 .header {
-    background: url(../../assets/img/bg-header.png) no-repeat 120px -50px/contain;
+    background: url(../assets/img/bg-header.png) no-repeat 120px -50px/contain;
 }
 
 .header__image {
