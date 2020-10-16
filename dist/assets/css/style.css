@@ -133,7 +133,7 @@ section {
 }
 
 .about {
-    background: url(../../../assets/img/about-bg.png) no-repeat;
+    background: url(../img/about-bg.png) no-repeat;
     background-size: contain;
     background-position: center 330px;
     padding-top: 130px;
@@ -217,7 +217,7 @@ section {
 .screenshot {
     padding-top: 0;
     padding-bottom: 190px;
-    background: url("../../../assets/img/screen-bg.png") no-repeat center 200px/contain;
+    background: url("../img/screen-bg.png") no-repeat center 200px/contain;
 }
 
 .screenshot__title {
@@ -241,7 +241,7 @@ section {
 .download {
     padding-top: 60px;
     padding-bottom: 20px;
-    background: url(../../../assets/img/bg-dowloand.jpg) no-repeat center bottom/cover;
+    background: url(../img/bg-dowloand.jpg) no-repeat center bottom/cover;
 }
 
 .download__title {
@@ -443,7 +443,7 @@ section {
 
     .about {
         padding: 60px 0;
-        background: url(../../../assets/img/about-bg.png) no-repeat;
+        background: url(../img/about-bg.png) no-repeat;
         background-size: contain;
         background-position: center 190px;
     }
@@ -597,7 +597,7 @@ section {
     }
 
     .screenshot {
-        background: url("../../../assets/img/screen-bg.png") no-repeat center 100px/contain;
+        background: url("../img/screen-bg.png") no-repeat center 100px/contain;
         padding-bottom: 140px;
     }
 
@@ -668,7 +668,7 @@ section {
         position: absolute;
         right: 0;
         top: -5%;
-        background: url("../../../assets/img/screens-bghot.png") no-repeat center/contain;
+        background: url("../img/screens-bghot.png") no-repeat center/contain;
     }
 
     .screenshot__image img {

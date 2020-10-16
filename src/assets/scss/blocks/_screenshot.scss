@@ -1,7 +1,7 @@
 .screenshot {
     padding-top: 0;
     padding-bottom: 190px;
-    background: url('../../../assets/img/screen-bg.png') no-repeat center 200px / contain;
+    background: url('../img/screen-bg.png') no-repeat center 200px / contain;
 
     &__title {
         text-align: center;
@@ -32,7 +32,7 @@
 
 @media (max-width: 992px) {
     .screenshot {
-        background: url('../../../assets/img/screen-bg.png') no-repeat center 100px / contain;
+        background: url('../img/screen-bg.png') no-repeat center 100px / contain;
         padding-bottom: 140px;
     }
 }
@@ -51,7 +51,7 @@
             position: absolute;
             right: 0;
             top: -5%;
-            background: url('../../../assets/img/screens-bghot.png')no-repeat center / contain;
+            background: url('../img/screens-bghot.png')no-repeat center / contain;
         }
 
         &__image {
