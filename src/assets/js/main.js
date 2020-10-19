@@ -19,29 +19,19 @@ var swiper = new Swiper('.swiper-container', {
   }
 })
 
-var nav = $('.navbar'),
-    about = $('#about'),
-    headerH = $(".header").innerHeight(),
-    scrollOffset = $(window).scrollTop();
+// var nav = $('.navbar'),
+//     about = $('#about'),
+//     headerH = $('header').innerHeight();
+//     scrollOffset = $(window).scrollTop();
 
-    checkScroll(scrollOffset);
+//     checkScroll(scrollOffset);
     
-$(window).on("scroll", function() {
-  scrollOffset = $(this).scrollTop();
+// $(window).on("scroll", function() {
+//   scrollOffset = $(this).scrollTop();
 
-  checkScroll(scrollOffset);
+//   checkScroll(scrollOffset);
 
-});
-
-function checkScroll(scrollOffset) {
-  if( scrollOffset >= headerH ) {
-    nav.addClass("sticky");
-    about.css('padding-top', '140px');
-  } else {
-    nav.removeClass("sticky");
-    about.css('padding-top', '');
-  }
-}
+// });
 
 
 

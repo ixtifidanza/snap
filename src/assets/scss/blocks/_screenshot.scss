@@ -1,12 +1,15 @@
 .screenshot {
-    padding-top: 0;
-    padding-bottom: 190px;
+    padding-top: 100px;
+    padding-bottom: 90px;
     background: url('../img/screen-bg.png') no-repeat center 200px / contain;
 
     &__title {
         text-align: center;
         font-size: 35px;
         font-weight: bold;
+    }
+    &__content {
+        // margin-top: 100px;
     }
 
     &__subtitle {
@@ -17,16 +20,17 @@
 
     &__image {
         & img {
-            width: 100%;
+            width: 77%;
             display: block;
             margin-right: -50px;
+            // margin-top: 100px;
         }
     }
 }
 
 @media (max-width: 1200px) {
     .screenshot {
-        padding-bottom: 170px;
+        padding: 30px 0 0;
     }
 }
 

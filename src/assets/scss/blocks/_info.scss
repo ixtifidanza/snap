@@ -1,7 +1,8 @@
 .info {
+    padding-top: 65px;
     &__title {
         max-width: 638px;
-        margin: 0 auto 60px;
+        margin: 0 auto 30px;
         text-align: center;
     }
 
@@ -9,22 +10,24 @@
         text-align: center;
         font-size: 18px;
         font-weight: 600;
-        margin-bottom: 30px;
+        width: 60%;
+        margin: -30px auto 15px;
     }
 
     &__subtitle {
         font-size: 12px;
         text-align: center;
         font-weight: 300;
-        margin: 0;
+        width: 60%;
+        margin: 0 auto;
     }
 
     &__card {
         max-width: 330px;
-        padding: 15px 25px 50px;
+        padding: 20px;
         transition: all .3s linear;
         &:nth-child(1), &:nth-child(2), &:nth-child(3) {
-            margin-bottom: 40px;
+            margin-bottom: 0px;
         }
         &:hover {
             background: #F9F9FF;
@@ -35,11 +38,12 @@
     }
 
     &__image {
-        display: block;
-        margin-bottom: 80px;;
-        height: 150px;
+        display: flex;
+        justify-content: center;
+        
+        
         & img {
-            width: 100%;
+            width: 40%;
         }
     }
 }
@@ -47,13 +51,14 @@
 
 @media (max-width: 1200px) {
     .info {
+        padding: 0;
         &__title {
             margin: 0 auto 50px;
         }
     
         &__title-card {
             font-size: 17px;
-            margin: -15px 0 25px;
+            margin: 0 55px 25px;
         }
     
         &__subtitle {
@@ -71,7 +76,7 @@
             margin-bottom: 80px;;
             height: 150px;
             & img {
-                width: 100%;
+                width: 110%;
             }
         }
     }

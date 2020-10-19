@@ -1,13 +1,12 @@
 .about {
-    background: url(../img/about-bg.png) no-repeat;
-    background-size: contain;
-    background-position: center 330px;
-    padding-top: 130px;
+    background: url(../img/about-bg.png) no-repeat -100px 18px /  contain ;
+    // background-size: contain;
+    // background-position: -76 206px;
+
 
 
     &__content {
         max-width: 465px;
-        margin-left: auto;
     }
 
     &__text {
@@ -20,7 +19,7 @@
         justify-content: flex-start;
 
         img {
-            width: 90%;
+            width: 60%;
         }
     }
 }
@@ -30,7 +29,7 @@
         padding: 60px 0;
         background: url(../img/about-bg.png) no-repeat;
         background-size: contain;
-        background-position: center 190px;
+        background-position: center 102px;
 
         &__text {
             font-size: 17px;
@@ -38,7 +37,8 @@
 
         &__image {
             img {
-                width: 80%;
+                width: 70%;
+                margin-left: 95px;
             }
         }
     }

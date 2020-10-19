@@ -1,6 +1,7 @@
 .header {
+    padding-top: 100px;
     // background: url('../../img/bg-header.png') no-repeat 100px -80px / contain;
-    background: url(../img/bg-header.png) no-repeat 120px -50px / contain;
+    background: url(../img/bg-header.png) no-repeat 400px  70px / 70%;
 
 
     &__image {
@@ -8,7 +9,7 @@
         justify-content: flex-end;
 
         img {
-            width: 85%;
+            width: 60%;
         }
     }
 
@@ -29,11 +30,12 @@
 
 @media(max-width: 1200px) {
     .header {
-        background: url(../img/bg-header.png) no-repeat 120px -50px / contain;
+        background: url(../img/bg-header.png) no-repeat 250px 52px / 68%;
 
         &__image {
             img {
-                width: 80%;
+                width: 55%;
+                margin-right: 111px;
             }
         }
 
@@ -54,7 +56,7 @@
 
 @media(max-width: 992px) {
     .header {
-        background: none;
+        
 
         &__content {
             margin-top: 50px;

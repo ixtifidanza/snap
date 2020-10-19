@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="279" height="279" viewBox="0 0 279 279">
+  <defs>
+    <filter id="Прямоугольник_6" x="0" y="0" width="279" height="279" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feFlood flood-color="#ffd100" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_1" data-name="1" transform="translate(-419 -2500)">
+    <g transform="matrix(1, 0, 0, 1, 419, 2500)" filter="url(#Прямоугольник_6)">
+      <rect id="Прямоугольник_6-2" data-name="Прямоугольник 6" width="111" height="111" rx="26" transform="translate(74 64)" fill="#f8c90f"/>
+    </g>
+    <g id="list" transform="translate(528 2592)">
+      <g id="Сгруппировать_10781" data-name="Сгруппировать 10781" transform="translate(0 0)">
+        <g id="Сгруппировать_10780" data-name="Сгруппировать 10780">
+          <path id="Контур_12480" data-name="Контур 12480" d="M105.971,97.343H122.94a2.271,2.271,0,1,0,0-4.543H105.971a2.271,2.271,0,1,0,0,4.543Z" transform="translate(-93.389 -83.67)" fill="#fff"/>
+          <path id="Контур_12481" data-name="Контур 12481" d="M125.212,181.271A2.267,2.267,0,0,0,122.94,179H105.971a2.271,2.271,0,1,0,0,4.543H122.94A2.267,2.267,0,0,0,125.212,181.271Z" transform="translate(-93.389 -160.272)" fill="#fff"/>
+          <path id="Контур_12482" data-name="Контур 12482" d="M63.566,31.9c-3.162-.245-6.77,1.347-10.333,3.763V13.071A2.267,2.267,0,0,0,50.961,10.8H13.371A2.267,2.267,0,0,0,11.1,13.071V63.087a2.267,2.267,0,0,0,2.271,2.271H50.95a2.267,2.267,0,0,0,2.271-2.271V41.453c3.763-3.1,7.371-5.211,9.988-5.011a2.278,2.278,0,0,0,.356-4.543ZM48.679,60.816H15.654V15.354H48.69V39.182a102.213,102.213,0,0,0-11.747,12.2l-3.251-2.951A2.27,2.27,0,0,0,30.641,51.8l5.044,4.576a2.274,2.274,0,0,0,3.329-.289A136.213,136.213,0,0,1,48.69,45.54V60.816Z" transform="translate(-11.1 -10.8)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

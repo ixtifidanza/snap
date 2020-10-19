@@ -7,15 +7,10 @@
 body {
     font-family: 'SFUIDisplay', sans-serif;
     overflow-x: hidden;
-    background-image: url(./../../assets/img/bg-body.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: -800px 300px;
+   
 }
 
-section {
-    padding: 100px 0;
-}
+
 
 .title {
     font-size: 35px;
@@ -51,18 +46,7 @@ section {
     }
 }
 
-.sticky {
-    padding: 0 !important;
-    padding-bottom: 10px !important;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    background: #fff;
-    transition: .3s linear;
-}
+
 
 @media (max-width: 1200px) {
     .text {
@@ -74,7 +58,7 @@ section {
     }
 
     section {
-        padding: 80px 0;
+        padding: 50px 0;
     }
 }
 
