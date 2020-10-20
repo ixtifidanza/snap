@@ -8,9 +8,7 @@
         font-size: 35px;
         font-weight: bold;
     }
-    &__content {
-        // margin-top: 100px;
-    }
+    
 
     &__subtitle {
         text-align: center;
@@ -23,41 +21,34 @@
             width: 77%;
             display: block;
             margin-right: -50px;
-            // margin-top: 100px;
+            
         }
     }
 }
 
 @media (max-width: 1200px) {
     .screenshot {
-        padding: 30px 0 0;
+        padding: 30px 0 40px;
+        background: url('../img/screen-bg.png') no-repeat center 200px / contain;
     }
 }
 
 @media (max-width: 992px) {
     .screenshot {
-        background: url('../img/screen-bg.png') no-repeat center 100px / contain;
-        padding-bottom: 140px;
+        background: url('../img/screen-bg.png') no-repeat center 130px / contain;
+        padding-bottom: 100px;
+        &__image img {
+            width: 100%;
+        }
     }
 }
 
 @media (max-width: 768px) {
     .screenshot {
+        background: url('../img/screen-bg.png') no-repeat center 136px / contain;
         position: relative;
-        background: none;
         padding-bottom: 120px;
-
-        &:after {
-            content: '';
-            width: 250px;
-            height: 600px;
-            display: block;
-            position: absolute;
-            right: 0;
-            top: -5%;
-            background: url('../img/screens-bghot.png')no-repeat center / contain;
-        }
-
+         
         &__image {
             & img {
                 width: 100%;
@@ -79,7 +70,7 @@
 
         &__image {
             & img {
-                width: 90%;
+                width: 70%;
                 margin: 0;
             }
         }

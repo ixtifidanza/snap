@@ -111,7 +111,8 @@ body {
 }
 
 .about {
-    background: url(../img/about-bg.png) no-repeat -100px 18px/contain;
+    padding: 100px 0 0 0;
+    background: url(../img/about-bg.png) no-repeat -142px 84px/contain;
 }
 
 .about__content {
@@ -144,6 +145,7 @@ body {
     max-width: 638px;
     margin: 0 auto 30px;
     text-align: center;
+    padding-top: 20px;
 }
 
 .info__title-card {
@@ -415,7 +417,7 @@ body {
     }
 
     .header {
-        background: url(../img/bg-header.png) no-repeat 250px 52px/68%;
+        background: url(../img/bg-header.png) no-repeat 257px 80px/68%;
     }
 
     .header__image img {
@@ -475,18 +477,9 @@ body {
         margin-bottom: 30px;
     }
 
-    .info__image {
-        display: block;
-        margin-bottom: 80px;
-        height: 150px;
-    }
-
-    .info__image img {
-        width: 110%;
-    }
-
     .screenshot {
-        padding: 30px 0 0;
+        padding: 30px 0 40px;
+        background: url("../img/screen-bg.png") no-repeat center 200px/contain;
     }
 
     .download__title {
@@ -519,12 +512,17 @@ body {
         padding: 60px 0;
     }
 
+    .header {
+        background: none;
+    }
+
     .header__content {
-        margin-top: 50px;
+        text-align: center;
     }
 
     .header__description {
         max-width: 480px;
+        margin: 0 auto;
     }
 
     .header__image {
@@ -540,11 +538,13 @@ body {
     }
 
     .header__images {
-        padding-left: 15px;
-        padding-right: 220px;
+        padding: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
-    .header__images img {
+    .header img {
         width: 180px;
     }
 
@@ -568,15 +568,8 @@ body {
     }
 
     .about__image img {
-        width: 70%;
-    }
-
-    .info__subtitle {
-        font-size: 12px;
-    }
-
-    .info__card {
-        margin-bottom: 20px;
+        width: 60%;
+        margin: 0;
     }
 
     .info .col-sm-12 {
@@ -588,13 +581,21 @@ body {
         justify-content: center;
     }
 
+    .info__subtitle {
+        font-size: 12px;
+    }
+
     .info__card {
         margin-bottom: 15px;
     }
 
     .screenshot {
-        background: url("../img/screen-bg.png") no-repeat center 100px/contain;
-        padding-bottom: 140px;
+        background: url("../img/screen-bg.png") no-repeat center 130px/contain;
+        padding-bottom: 100px;
+    }
+
+    .screenshot__image img {
+        width: 100%;
     }
 
     .download__title {
@@ -624,12 +625,34 @@ body {
     }
 
     .header__images {
-        padding-left: 15px;
-        padding-right: 240px;
+        width: 100%;
+        padding: 0;
+        -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+        margin: 0 auto;
     }
 
-    .header__images img {
-        width: 150px;
+    .header__store {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+    }
+
+    .header__store:last-child {
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+    }
+
+    .header img {
+        width: 140px;
+        margin: 0 25px;
     }
 
     .about__image {
@@ -639,7 +662,7 @@ body {
     }
 
     .about__image img {
-        width: 60%;
+        width: 50%;
     }
 
     .about__title {
@@ -651,20 +674,9 @@ body {
     }
 
     .screenshot {
+        background: url("../img/screen-bg.png") no-repeat center 136px/contain;
         position: relative;
-        background: none;
         padding-bottom: 120px;
-    }
-
-    .screenshot:after {
-        content: '';
-        width: 250px;
-        height: 600px;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: -5%;
-        background: url("../img/screens-bghot.png") no-repeat center/contain;
     }
 
     .screenshot__image img {
@@ -743,6 +755,14 @@ body {
         padding: 0 10px 5px !important;
     }
 
+    .header {
+        background: none;
+    }
+
+    .header__content {
+        text-align: center;
+    }
+
     .header__title {
         font-size: 30px;
     }
@@ -751,18 +771,9 @@ body {
         margin-bottom: 20px !important;
     }
 
-    .header__images {
-        padding-left: 15px;
-        padding-right: 190px;
-    }
-
-    .header__images img {
-        width: 120px;
-    }
-
-    .header .row {
-        -ms-flex-wrap: nowrap !important;
-        flex-wrap: nowrap !important;
+    .about__image img {
+        width: 50%;
+        margin: 0 auto;
     }
 
     .screenshot {
@@ -776,7 +787,7 @@ body {
     }
 
     .screenshot__image img {
-        width: 90%;
+        width: 70%;
         margin: 0;
     }
 
@@ -869,7 +880,7 @@ body {
     }
 
     .navbar {
-        padding: 0 10px 5px !important;
+        padding: 6px 10px 5px !important;
     }
 
     .navbar-brand img {

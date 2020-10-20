@@ -4,6 +4,7 @@
         max-width: 638px;
         margin: 0 auto 30px;
         text-align: center;
+        padding-top: 20px;
     }
 
     &__title-card {
@@ -71,35 +72,19 @@
             }
         }
     
-        &__image {
-            display: block;
-            margin-bottom: 80px;;
-            height: 150px;
-            & img {
-                width: 110%;
-            }
         }
-    }
 }
 
-
-@media (max-width: 992px) {
-    .info {    
-        &__subtitle {
-            font-size: 12px;
-        }
-    
-        &__card {
-            margin-bottom: 20px;
-        }
-    }
-}
 
 @media (max-width: 992px) {
     .info {    
         & .col-sm-12 {
             display: flex;
             justify-content: center;
+        }
+
+        &__subtitle {
+            font-size: 12px;
         }
 
         &__card {

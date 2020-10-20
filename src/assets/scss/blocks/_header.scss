@@ -1,7 +1,7 @@
 .header {
     padding-top: 100px;
     // background: url('../../img/bg-header.png') no-repeat 100px -80px / contain;
-    background: url(../img/bg-header.png) no-repeat 400px  70px / 70%;
+    background: url(../img/bg-header.png) no-repeat 400px 70px / 70%;
 
 
     &__image {
@@ -30,7 +30,7 @@
 
 @media(max-width: 1200px) {
     .header {
-        background: url(../img/bg-header.png) no-repeat 250px 52px / 68%;
+        background: url(../img/bg-header.png) no-repeat 257px 80px / 68%;
 
         &__image {
             img {
@@ -46,7 +46,7 @@
         &__images {
             padding-left: 15px;
             padding-right: 90px;
-    
+
             & img {
                 width: 200px;
             }
@@ -56,14 +56,17 @@
 
 @media(max-width: 992px) {
     .header {
-        
+
+        background: none;
 
         &__content {
-            margin-top: 50px;
+            text-align: center;
         }
+
 
         &__description {
             max-width: 480px;
+            margin: 0 auto;
         }
 
         &__image {
@@ -79,15 +82,16 @@
         }
 
         &__images {
-            padding-left: 15px;
-            padding-right: 220px;
-    
-            & img {
-                width: 180px;
-            }
+            padding: 0;
+            justify-content: center;
+        }
+
+        & img {
+            width: 180px;
         }
     }
 }
+
 
 @media(max-width: 768px) {
     .header {
@@ -96,18 +100,39 @@
         }
 
         &__images {
-            padding-left: 15px;
-            padding-right: 240px;
-    
-            & img {
-                width: 150px;
+            width: 100%;
+            padding: 0;
+            flex-wrap: nowrap !important;
+            justify-content: center !important;
+            margin: 0 auto;
+        }
+
+        &__store {
+            display: flex;
+            justify-content: flex-end !important;
+
+            &:last-child {
+                justify-content: flex-start !important;
             }
+        }
+
+        & img {
+            width: 140px;
+            margin: 0 25px;
         }
     }
 }
 
+
 @media(max-width: 568px) {
     .header {
+
+        background: none;
+
+        &__content {
+            text-align: center;
+        }
+
         &__title {
             font-size: 30px;
         }
@@ -115,18 +140,6 @@
         &__description {
             margin-bottom: 20px !important;
         }
-
-        &__images {
-            padding-left: 15px;
-            padding-right: 190px;
-    
-            & img {
-                width: 120px;
-            }
-        }
-
-        & .row {
-            flex-wrap: nowrap !important;
-        }
     }
+
 }

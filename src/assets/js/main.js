@@ -19,19 +19,24 @@ var swiper = new Swiper('.swiper-container', {
   }
 })
 
-// var nav = $('.navbar'),
-//     about = $('#about'),
-//     headerH = $('header').innerHeight();
-//     scrollOffset = $(window).scrollTop();
+var nav = $('.navbar'),
+    scrollOffset = $(window).scrollTop();
 
-//     checkScroll(scrollOffset);
+    // checkScroll(scrollOffset);
     
-// $(window).on("scroll", function() {
-//   scrollOffset = $(this).scrollTop();
+$(window).on("scroll", function() {
+  scrollOffset = $(this).scrollTop();
 
-//   checkScroll(scrollOffset);
+  // checkScroll(scrollOffset);
 
-// });
+  if ( scrollOffset ){
+    nav.css('box-shadow', '0 0 8px 2px grey');
+    nav.css("transition", "box-shadow .3s linear");
+  } else {
+    nav.css('box-shadow', 'none');
+  }
+
+});
 
 
 
