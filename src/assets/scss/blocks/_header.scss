@@ -118,7 +118,7 @@
 
         & img {
             width: 140px;
-            margin: 0 25px;
+            margin: 0;
         }
     }
 }
@@ -140,6 +140,7 @@
         &__description {
             margin-bottom: 20px !important;
         }
+        
     }
 
 }

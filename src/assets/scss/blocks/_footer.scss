@@ -92,10 +92,10 @@
             flex-wrap: wrap;
         }
         &__item {
-            flex-basis: 50%;
+            flex-basis: 20%;
 
             &:last-child {
-                margin-top: 30px;
+                // margin-top: 30px;
             }
         }
     }

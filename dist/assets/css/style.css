@@ -38,6 +38,7 @@
 }
 
 body {
+    position: relative;
     font-family: 'SFUIDisplay', sans-serif;
     overflow-x: hidden;
 }
@@ -201,8 +202,8 @@ body {
 
 .screenshot {
     padding-top: 100px;
-    padding-bottom: 90px;
-    background: url("../img/screen-bg.png") no-repeat center 200px/contain;
+    padding-bottom: 100px;
+    background: url("../img/screen-bg.png") no-repeat center 165px/contain;
 }
 
 .screenshot__title {
@@ -218,15 +219,15 @@ body {
 }
 
 .screenshot__image img {
-    width: 77%;
+    width: 65%;
     display: block;
     margin-right: -50px;
 }
 
 .download {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 20px;
-    background: url(../img/bg-dowloand.jpg) no-repeat center bottom/cover;
+    background: url(../img/bg-dowloand.jpg) no-repeat center bottom -50px/cover;
 }
 
 .download__title {
@@ -454,14 +455,6 @@ body {
         margin-left: 95px;
     }
 
-    .info {
-        padding: 0;
-    }
-
-    .info__title {
-        margin: 0 auto 50px;
-    }
-
     .info__title-card {
         font-size: 17px;
         margin: 0 55px 25px;
@@ -549,7 +542,6 @@ body {
     }
 
     .about {
-        padding: 50px 0;
         background: none;
     }
 
@@ -652,7 +644,7 @@ body {
 
     .header img {
         width: 140px;
-        margin: 0 25px;
+        margin: 0;
     }
 
     .about__image {
@@ -674,9 +666,13 @@ body {
     }
 
     .screenshot {
-        background: url("../img/screen-bg.png") no-repeat center 136px/contain;
+        background: url("../img/screen-bg.png") no-repeat center 184px/contain;
         position: relative;
         padding-bottom: 120px;
+    }
+
+    .screenshot__title {
+        padding-top: 52px;
     }
 
     .screenshot__image img {
@@ -692,6 +688,7 @@ body {
     .download__title {
         margin-bottom: 20px;
         font-size: 25px;
+        padding-top: 40px;
     }
 
     .download__block {
@@ -712,16 +709,8 @@ body {
     }
 
     .footer__item {
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    }
-
-    .footer__item:last-child {
-        margin-top: 30px;
-    }
-
-    .navbar {
-        padding: 0;
+        -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
     }
 
     .navbar-brand {

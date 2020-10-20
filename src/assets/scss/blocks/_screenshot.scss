@@ -1,7 +1,7 @@
 .screenshot {
     padding-top: 100px;
-    padding-bottom: 90px;
-    background: url('../img/screen-bg.png') no-repeat center 200px / contain;
+    padding-bottom: 100px;
+    background: url('../img/screen-bg.png') no-repeat center 165px / contain;
 
     &__title {
         text-align: center;
@@ -18,7 +18,7 @@
 
     &__image {
         & img {
-            width: 77%;
+            width: 65%;
             display: block;
             margin-right: -50px;
             
@@ -45,10 +45,12 @@
 
 @media (max-width: 768px) {
     .screenshot {
-        background: url('../img/screen-bg.png') no-repeat center 136px / contain;
+        background: url('../img/screen-bg.png') no-repeat center 184px / contain;
         position: relative;
         padding-bottom: 120px;
-         
+         &__title {
+             padding-top: 52px;
+         }
         &__image {
             & img {
                 width: 100%;

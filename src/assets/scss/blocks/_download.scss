@@ -1,7 +1,7 @@
 .download {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 20px;
-    background: url(../img/bg-dowloand.jpg) no-repeat center bottom / cover;
+    background: url(../img/bg-dowloand.jpg) no-repeat center bottom -50px / cover;
 
     &__title {
         text-align: center;
@@ -61,6 +61,7 @@
         &__title {
             margin-bottom: 20px;
             font-size: 25px;
+            padding-top: 40px;
         }
 
         &__block {
